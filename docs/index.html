@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CapDrop – Screenshots in seconds</title>
+<meta name="description" content="CapDrop is a fast screenshot and screen recording app for macOS. Everything stays on your device.">
+<link rel="icon" href="appicon.png">
+<style>
+:root{--bg:#f6f8f8;--card:#fff;--ink:#14282b;--mute:#5b6f72;--acc:#0E7C86;--line:#e2e8e9}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1718;--card:#172224;--ink:#e6eeef;--mute:#93a6a8;--line:#26393c;--acc:#38b0b8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,system-ui,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:32px 16px 48px}
+header{display:flex;gap:18px;align-items:center}header img{width:88px;height:88px}
+h1{margin:0;font-size:34px}.sub{color:var(--mute);margin:2px 0 0}
+.badge{display:inline-block;margin-top:14px;padding:8px 14px;border-radius:9px;background:var(--acc);color:#fff;font-weight:600;font-size:14px}
+h2{font-size:19px;margin:36px 0 10px;color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card b{display:block;margin-bottom:4px}.card span{color:var(--mute);font-size:14px}
+.shots{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}.shots img{height:300px;border-radius:10px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px}
+td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left}tr:last-child td{border-bottom:0}
+a{color:var(--acc)}footer{margin-top:40px;color:var(--mute);font-size:13px}
+</style></head><body><div class="wrap">
+<header><img src="appicon.png" alt="CapDrop icon"><div><h1>CapDrop</h1><p class="sub">Screenshots in seconds · Bildschirmfoto in Sekunden</p><span class="badge">Coming soon on the Mac App Store · free</span></div></header>
+
+<h2>What it does</h2>
+<div class="grid">
+<div class="card"><b>Capture</b><span>Area, window, full screen, last area, timer, scrolling capture, magnifier with pixel colour.</span></div>
+<div class="card"><b>Your file names</b><span>Build names from date, time, app, window, counter and size. Subfolders like year/month.</span></div>
+<div class="card"><b>Drop mode</b><span>Press a key and the image lands in your folder, with nothing in between.</span></div>
+<div class="card"><b>Edit</b><span>Arrows, text, shapes, counter, blur, pixelate, crop, backgrounds. Auto-redact e-mail, phone and IBAN.</span></div>
+<div class="card"><b>Video &amp; GIF</b><span>Screen recording with sound, camera and visible clicks.</span></div>
+<div class="card"><b>Text &amp; history</b><span>Recognise text on device. Search your history by the text in your images.</span></div>
+</div>
+
+<h2>Screenshots</h2>
+<div class="shots"><img src="screenshots/1-set-keys.jpg" alt="Shortcuts"><img src="screenshots/2-set-naming.jpg" alt="File naming"><img src="screenshots/3-set-capture.jpg" alt="Capture settings"><img src="screenshots/4-set-general.jpg" alt="General settings"><img src="screenshots/5-onb1.jpg" alt="First start"></div>
+
+<h2>Permissions</h2>
+<table><tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Screen Recording</td><td>To capture what you select</td></tr>
+<tr><td>Microphone, Camera</td><td>Only if you turn them on for a screen video</td></tr>
+<tr><td>Input Monitoring</td><td>Optional, only to show pressed keys in videos</td></tr>
+</table>
+
+<h2>Privacy</h2>
+<p>CapDrop makes no network connections, needs no account and collects no data. Everything stays on your Mac.
+<a href="privacy.html">Privacy policy</a> · <a href="datenschutz.html">Datenschutz</a></p>
+
+<h2>Support</h2>
+<p>Questions, bugs or ideas: <a href="https://github.com/ipstyle/capdrop/issues">open an issue on GitHub</a>.
+Requires macOS 14 or later. English and German.</p>
+
+<footer>© 2026 ipstyle · All rights reserved</footer>
+</div></body></html>
